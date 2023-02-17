@@ -27,6 +27,8 @@ require("./config/passport")(passport)
 //const db = process.env.DB_CONNECT
 const db = process.env.DB_CONNECT
 
+console.log("dasndjkajsdnkasnd" + db)
+
 // Connect to MongoDB
 mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log("MongoDB Connected"))
